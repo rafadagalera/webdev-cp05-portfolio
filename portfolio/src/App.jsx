@@ -1,17 +1,13 @@
-import { useState } from 'react'
+import { Outlet } from 'react-router-dom'
 import './App.css'
-
-function App() {
-
+import Menu from './components/menu'
+import Footer from './components/footer'
+export default function App() {
   return (
     <>
-    <div>
-      <p className=' text-8xl'>
-        Hello World
-      </p>
-    </div>
+      <Menu/>
+      <Outlet/>
+      <Footer/>
     </>
   )
 }
-
-export default App
