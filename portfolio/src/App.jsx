@@ -5,7 +5,7 @@ import Footer from './components/footer'
 export default function App() {
   return (
     <>
-    <div className=' bg-slate-500'>
+    <div >
       <Menu/>
       <Outlet/>
     </div>
