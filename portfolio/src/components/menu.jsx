@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 
 export default function Menu() {
   return (
-    <div className='p-8 flex justify-between w-4/5 m-auto text-white text-l'>
+    <div className=' bg-slate-400 p-8 flex justify-between w-4/5 m-auto text-white text-l'>
         <div><h1>Logo</h1></div>
         <div>
           <ul className='flex justify-between gap-7 '>
