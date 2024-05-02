@@ -1,18 +1,18 @@
 export default function Projects(){
     const callouts = [
         {
-          name: 'Desk and Office',
+          name: 'Valorant WishList',
           description: 'Work from home accessories',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
           imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-          href: '#',
+          href: 'https://github.com/rafadagalera/Valorant-Wishlist',
         },
         {
-          name: 'Self-Improvement',
-          description: 'Journals and note-taking',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
-          imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-          href: '#',
+          name: 'Fokus',
+          description: 'Uma plataforma que visa aumentar a produtividade.',
+          imageSrc: 'src/assets/Fokus.png',
+          imageAlt: 'Print do site',
+          href: 'https://github.com/rafadagalera/Fokus',
         },
         {
           name: 'Travel',
@@ -44,7 +44,7 @@ export default function Projects(){
                   />
                 </div>
                 <h3 className="mt-6 text-sm text-gray-500">
-                  <a href={callout.href}>
+                  <a target="_blank" href={callout.href}>
                     <span className="absolute inset-0" />
                     {callout.name}
                   </a>
