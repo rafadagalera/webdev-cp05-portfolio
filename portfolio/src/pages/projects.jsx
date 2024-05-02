@@ -15,11 +15,11 @@ export default function Projects(){
           href: 'https://github.com/rafadagalera/Fokus',
         },
         {
-          name: 'Travel',
-          description: 'Daily commute essentials',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
-          imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-          href: '#',
+          name: 'Automação de Certificados',
+          description: 'Automação de certificados em Python',
+          imageSrc: 'src/assets/certificado_padrao.jpg',
+          imageAlt: 'Imagem do projeto',
+          href: 'https://github.com/MicaelAzarias/Python_vida_real.git',
         },
       ]
     return(
