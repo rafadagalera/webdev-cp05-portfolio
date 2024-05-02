@@ -2,9 +2,9 @@ export default function Projects(){
     const callouts = [
         {
           name: 'Valorant WishList',
-          description: 'Work from home accessories',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
-          imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+          description: 'Faça sua wishlist das skins de arma do jogo Valorant.',
+          imageSrc: 'src/assets/valorant-wishlist.png',
+          imageAlt: 'Print do site',
           href: 'https://github.com/rafadagalera/Valorant-Wishlist',
         },
         {
