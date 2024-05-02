@@ -15,11 +15,11 @@ export default function Projects(){
           href: 'https://github.com/rafadagalera/Fokus',
         },
         {
-          name: 'Travel',
-          description: 'Daily commute essentials',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
-          imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-          href: '#',
+          name: 'Automação de Certificados',
+          description: 'Automação de certificados em Python',
+          imageSrc: 'src/assets/certificado_padrao.jpg',
+          imageAlt: 'Imagem do projeto',
+          href: 'https://github.com/MicaelAzarias/Python_vida_real.git',
         },
       ]
     return(
@@ -31,7 +31,7 @@ export default function Projects(){
           <div className="">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-10 max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-          <h2 className="text-2xl font-bold text-gray-900">Collections</h2>
+          <h2 className="text-2xl font-bold text-gray-900"></h2>
 
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {callouts.map((callout) => (
