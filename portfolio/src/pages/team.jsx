@@ -2,27 +2,32 @@ const people = [
     {
       name: 'Rafael Nascimento',
       linkedin: 'https://www.linkedin.com/in/devdagalera/',
-      imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      github: 'https://github.com/rafadagalera',
+      imageUrl: 'https://i.pinimg.com/564x/6b/00/56/6b0056e8e079346e13f73a41d77049e5.jpg',
+
     },
     {
         name: 'Vinicius Taiki',
         linkedin:'a',
+        github: '',
         imageUrl:'a',
     },
     {
         name: 'Micael Azarias',
         linkedin:'a',
+        github: '',
         imageUrl:'a',
     },
     {
         name: 'Pedro Henrique',
         linkedin:'a',
+        github: '',
         imageUrl:'a',
     },
     {
         name: 'Felipe Nakama',
         linkedin:'a',
+        github: '',
         imageUrl:'a',
     }
   ]
@@ -44,6 +49,7 @@ export default function Team(){
                 <div>
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
                   <a target="_blank" href={person.linkedin} className="text-sm font-semibold leading-6 text-indigo-600">Linkedin</a>
+                  <a target= "_ blank" href={person.github} className="text-sm font-semibold leading-6 text-gray-900 p-4">Github </a>
                 </div>
               </div>
             </li>
